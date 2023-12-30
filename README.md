@@ -34,9 +34,9 @@ To install RLBench locally (make sure to edit the COPPELIASIM_ROOT to point to y
 ```
 # Install PyRep
 cd PyRep; 
-wget https://www.coppeliarobotics.com/files/CoppeliaSim_Edu_V4_1_0_Ubuntu20_04.tar.xz; 
-tar -xf CoppeliaSim_Edu_V4_1_0_Ubuntu20_04.tar.xz;
-echo "export COPPELIASIM_ROOT=/your_path_to_PyRep/CoppeliaSim_Edu_V4_1_0_Ubuntu20_04" >> ~/.bashrc; 
+wget https://www.coppeliarobotics.com/files/V4_6_0_rev16/CoppeliaSim_Edu_V4_6_0_rev16_Ubuntu22_04.tar.xz; 
+tar -xf CoppeliaSim_Edu_V4_6_0_rev16_Ubuntu22_04.tar.xz;
+echo "export COPPELIASIM_ROOT=$PWD/CoppeliaSim_Edu_V4_6_0_rev16_Ubuntu22_04" >> ~/.bashrc; 
 echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:\$COPPELIASIM_ROOT" >> ~/.bashrc;
 echo "export QT_QPA_PLATFORM_PLUGIN_PATH=\$COPPELIASIM_ROOT" >> ~/.bashrc;
 source ~/.bashrc;
